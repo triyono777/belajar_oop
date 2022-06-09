@@ -1,4 +1,7 @@
-class Mobil:
+from kendaraan import Kendaraan
+
+
+class Mobil(Kendaraan):
 
     def __init__(self, roda, tipe, kecepatan):
         self.roda = roda
